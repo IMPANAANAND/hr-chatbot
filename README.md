@@ -6,18 +6,6 @@ Query employees by skills, experience, or projects (e.g., "Find Python developer
 Displays results in a Streamlit UI with employee cards showing ID, name, skills, experience, projects, and availability.
 Uses FastAPI for the backend API and Streamlit for the frontend interface.
 
-Project Structure
-hr-chatbot/
-├── data/
-│   └── employees.json       # Employee data
-├── src/
-│   ├── main.py             # FastAPI backend
-│   ├── rag.py              # RAG pipeline logic
-│   └── utils.py            # Utility functions
-├── app.py                  # Streamlit frontend
-├── requirements.txt        # Python dependencies
-└── README.md               # This file
-
 Prerequisites
 
 Python: Version 3.10.0 (or 3.10.x recommended for stability).
